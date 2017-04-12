@@ -1,5 +1,5 @@
 // require Bamazon db
-var mysql      = require("mysql");
+var mysql = require("mysql");
 
 var prompt = require("prompt");
 
