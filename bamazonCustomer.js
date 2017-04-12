@@ -22,7 +22,7 @@ prompt.get(["What are you lookig for?", "How many?"], function (err, result) {
     // Log the results.
     console.log("Command-line input received:");
     console.log("  item: " + result.item_id);
-    console.log("  quantity: " + result.quantity);
+    console.log("  quantity: " + result.stock_quantity);
 });
 
 // Queries and such here
