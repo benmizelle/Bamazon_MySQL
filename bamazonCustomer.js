@@ -17,7 +17,7 @@ connection.connect();
 prompt.start();
 
 // Get two properties from the user: username and email
-prompt.get(["What aare you lookig for?", "How many?"], function (err, result) {
+prompt.get(["What are you lookig for?", "How many?"], function (err, result) {
 
     // Log the results.
     console.log("Command-line input received:");
