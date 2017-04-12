@@ -30,7 +30,7 @@ prompt.get(["What are you looking for today?"], function (err, result) {
             var productNumber = results[i];
 
             for (var i = 0; i < results.length; i++) {
-                if (productNumber === true) {
+                if () {
                     console.log("");
                 }
                 else {
@@ -39,10 +39,10 @@ prompt.get(["What are you looking for today?"], function (err, result) {
             }
         });
 
-        prompt.start();
+prompt.start();
 
-        prompt.get(["how many?"]), function (err, results) {
-            // asks for a quantity to check against stock_quantity
+// asks for a quantity to check against stock_quantity
+prompt.get(["how many?"]), function (err, results) {
             var checkProducts = function () {
                 // query the database for product availability
                 connection.query("SELECT stock_quantity FROM products", function (err, results) {
