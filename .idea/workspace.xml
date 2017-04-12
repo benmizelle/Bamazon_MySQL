@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d69b7eac-1f58-4cc4-a9d8-5ad3dcd7a5b1" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bamazonCustomer.js" afterPath="$PROJECT_DIR$/bamazonCustomer.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,8 +18,8 @@
       <file leaf-file-name="bamazonCustomer.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bamazonCustomer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="24" column="56" lean-forward="false" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
+            <state relative-caret-position="609">
+              <caret line="29" column="87" lean-forward="true" selection-start-line="29" selection-start-column="87" selection-end-line="29" selection-end-column="87" />
               <folding />
             </state>
           </provider>
@@ -186,12 +187,12 @@
       <updated>1491706487738</updated>
       <workItem from="1491706489426" duration="1765000" />
       <workItem from="1491944138056" duration="775000" />
-      <workItem from="1491965301576" duration="2262000" />
+      <workItem from="1491965301576" duration="5836000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4802000" />
+    <option name="totallyTimeSpent" value="8376000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1098" extended-state="6" />
@@ -254,8 +255,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bamazonCustomer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="24" column="56" lean-forward="false" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
+        <state relative-caret-position="609">
+          <caret line="29" column="87" lean-forward="true" selection-start-line="29" selection-start-column="87" selection-end-line="29" selection-end-column="87" />
           <folding />
         </state>
       </provider>
