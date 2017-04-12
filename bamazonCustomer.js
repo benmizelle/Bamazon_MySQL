@@ -19,12 +19,12 @@ prompt.start();
 // Asks the user what product they are interested in and how many the quantity
 prompt.get(["What are you looking for today?"], function (err, result) {
     // Log the results.
-    console.log("Command-line input received:");
+    console.log("Command-line input received:");});
 }).then(function(answer) {
     // function to pull db info for product_id
     var productNumber = function() {
         // query the database for product availability
-        connection.query("SELECT item_id FROM products", function(err, results){
+        connection.query("SELECT item_id FROM products", function (err, results) {
             if (err) throw err;
 
             var productNumber = results[i];
@@ -39,13 +39,13 @@ prompt.get(["What are you looking for today?"], function (err, result) {
             }
         });
 
-prompt.start();
+        prompt.start();
 
-prompt.get(["how many?"]), function (err, results) {
+        prompt.get(["how many?"]), function (err, results) {
             // asks for a quantity to check against stock_quantity
-            var checkProducts = function() {
+            var checkProducts = function () {
                 // query the database for product availability
-                connection.query("SELECT stock_quantity FROM products", function(err, results){
+                connection.query("SELECT stock_quantity FROM products", function (err, results) {
                     if (err) throw err;
 
                     var productQuantity = results[i];
@@ -60,16 +60,11 @@ prompt.get(["how many?"]), function (err, results) {
                     }
 
 
-
                 });
+
+                connection.query("UPDATE products WHERE ?", [{
+                    stock_quantity: i--
+                }])
             }
 
         }
-
-
-
-
-
-
-
-
