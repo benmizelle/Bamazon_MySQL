@@ -31,7 +31,7 @@ prompt.get(["What are you looking for today?"], function (err, result) {
 
             for (var i = 0; i < results.length; i++) {
                 if (productNumber === i) {
-                    console.log("Your item will be added to cart.");
+                    console.log("Your item(s) will be added to cart.");
                 }
                 else {
                     console.log("error, unable to add to cart.");
