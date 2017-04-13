@@ -16,7 +16,7 @@ connection.connect();
 
 prompt.start();
 
-// Asks the user what product they are interested in 
+// Asks the user what product they are interested in
 prompt.get(["What are you looking for today?"], function (err, result) {
     // Log the results.
     console.log("Command-line input received:");
@@ -30,11 +30,11 @@ prompt.get(["What are you looking for today?"], function (err, result) {
             var productNumber = results[i];
 
             for (var i = 0; i < results.length; i++) {
-                if () {
-                    console.log("");
+                if (productNumber === i) {
+                    console.log("Your item will be added to cart.");
                 }
                 else {
-                    console.log("");
+                    console.log("error, unable to add to cart.");
                 }
             }
         });
@@ -53,7 +53,7 @@ prompt.get(["how many?"]), function (err, results) {
                     for (var i = 0; i < results.length; i++) {
                         if (productQuantity > 0) {
                             // message if item is in stock
-                            console.log("Added to cart.");
+                            console.log("In stock.");
                         }
                         else {
                             // message if item is out of stock
