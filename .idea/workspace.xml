@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d69b7eac-1f58-4cc4-a9d8-5ad3dcd7a5b1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bamazonCustomer.js" afterPath="$PROJECT_DIR$/bamazonCustomer.js" />
-    </list>
+    <list default="true" id="d69b7eac-1f58-4cc4-a9d8-5ad3dcd7a5b1" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -186,12 +184,12 @@
       <updated>1491706487738</updated>
       <workItem from="1491706489426" duration="1765000" />
       <workItem from="1491944138056" duration="775000" />
-      <workItem from="1491965301576" duration="16965000" />
+      <workItem from="1491965301576" duration="17565000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19505000" />
+    <option name="totallyTimeSpent" value="20105000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1098" extended-state="6" />
