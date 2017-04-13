@@ -17,7 +17,7 @@ connection.connect();
 prompt.start();
 
 // Asks the user what product they are interested in
-prompt.get(["What are you looking for today?"], function (err, result) {
+prompt.get(["What is the ID number of the item you are looking for today?"], function (err, result) {
     // Log the results.
     console.log("Command-line input received:");
 }).then(function(answer) {
